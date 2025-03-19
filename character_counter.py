@@ -6,7 +6,16 @@
 
 # Pseudocode
 # - input fullname
-# - replace every spaces with empty string using replace()
 # - set char_counter
 # - count number of characters using for loop
 # - print the number of characters
+
+# Main Program
+
+full_name = input("Enter your full name: ")
+
+char_count = 0
+for char in full_name:
+    char_count += 1 
+
+print(f"Output: {char_count}")
