@@ -14,4 +14,6 @@
 messy_full_name = input("Enter your full name in incorrect casing: ")
 
 title_case_name = messy_full_name.title()
-pascal_case_name = title_case_name.replace()
+pascal_case_name = title_case_name.replace(" ", "")
+
+print(f"Output: {pascal_case_name}")
