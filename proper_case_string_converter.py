@@ -3,3 +3,8 @@
 # Example:
 # Input: jUAn DEla CrUZ
 # # Output: Juan Dela Cruz
+
+# Pseudocode
+# - input full name in inproper casing
+# - convert string to proper casing using title()
+# - print the converted string
