@@ -16,10 +16,9 @@
 
 complete_statement = input("Enter your thoughts right now: ")
 
-
 word_total = 0
 
-for word in complete_statement:
+for word in complete_statement.split():
     word_total += 1
 
 print(f"Output: {word_total}")
