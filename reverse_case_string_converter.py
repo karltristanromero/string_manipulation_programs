@@ -3,3 +3,8 @@
 # Example:
 # Input: jUAn DEla CrUZ
 # Output: JuaN deLA cRuz
+
+# Pseudocode
+# - input fullname in incorrect casing
+# - convert the casing using swapcase()
+# - print the converted string
