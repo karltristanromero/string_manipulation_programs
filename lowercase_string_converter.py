@@ -3,3 +3,8 @@
 # Example:
 # Input: Juan Dela Cruz
 # Output: juan dela cruz
+
+# Pseudocode
+# - input full name
+# - convert name into lowercase
+# - print converted name
