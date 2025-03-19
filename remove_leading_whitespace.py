@@ -4,3 +4,8 @@
 # Example:
 # Input:         Juan Dela Cruz
 # Output: Juan Dela Cruz
+
+# Pseudocode
+# Input full name with leading spaces
+# remove the leading spaces with lstrip()
+# print the processed input
