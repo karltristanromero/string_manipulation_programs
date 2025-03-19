@@ -3,3 +3,10 @@
 # Example:
 # Input: We will weather the weather whatever the weather whether we like it or not
 # Output: 14
+
+# Pseudocode
+# - input string statement
+# - set word_total
+# - use for loop to iterate over the statement
+# - append every index
+# - print the word total
