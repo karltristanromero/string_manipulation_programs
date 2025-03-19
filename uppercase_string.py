@@ -3,3 +3,8 @@
 # Example:
 # Input: Juan Dela Cruz
 # Output: JUAN DELA CRUZ
+
+# Pseudocode
+# - input full name
+# - convert to uppercase using upper()
+# - print converted string
