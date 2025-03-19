@@ -7,7 +7,7 @@
 
 # Pseudocode
 # input number
-# use zfill() to convert number into a 6 digit number
+# use ":d" formatting
 # print the result
 
 number = int(input("Enter a number: "))
