@@ -8,3 +8,11 @@
 # - input full name
 # - convert name into lowercase
 # - print converted name
+
+# Main Program
+
+full_name = input("Enter your full name: ")
+
+lower_name = full_name.lower()
+
+print(f"Your name in lowercase letters is: {lower_name}")
