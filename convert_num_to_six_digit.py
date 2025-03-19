@@ -9,3 +9,9 @@
 # input number
 # use zfill() to convert number into a 6 digit number
 # print the result
+
+number = int(input("Enter a number: "))
+
+six_digit_num = "%06d" % number
+
+print(f"Number in six digit format: {six_digit_num}")
