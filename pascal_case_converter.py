@@ -3,3 +3,8 @@
 # Example:
 # Input: jUAn DEla CrUZ
 # Output: JuanDelaCruz
+
+# Pseudocode
+# - input full name in incorrect casing
+# - convert string into pascal casing using title() and split()
+# - print converted string
