@@ -10,8 +10,17 @@
 # use ":d" formatting
 # print the result
 
-number = int(input("Enter a number: "))
+while True:
+    try:    
+        number = int(input("Enter a number from 0-1000: "))
 
-six_digit_num = "%06d" % number
+        if number in range(0, 1001):
+            six_digit_num = "%06d" % number
+            break
+        else:
+            print("Choose a number between 0-1000 only!")
+
+    except ValueError:
+        print("Choose a number!")
 
 print(f"Number in six digit format: {six_digit_num}")
